@@ -62,3 +62,4 @@ dkms.conf
 # End of https://www.gitignore.io/api/c,assembler
 
 /Anotações
+/open-file-syscall-non-asm
