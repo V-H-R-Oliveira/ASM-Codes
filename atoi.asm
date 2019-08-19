@@ -17,6 +17,7 @@ atoi:
 	pop r10
 	push rdx
 	pop r8
+	
 	xor rsi, rsi
 	xor rdi, rdi
 	xor rdx, rdx
@@ -39,7 +40,7 @@ atoi:
 		xor rcx, rcx
 		xor r9, r9
 		xor r10, r10
-
+		ret
 _start:
 	push n
 	pop rsi
