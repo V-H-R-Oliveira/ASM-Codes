@@ -1,7 +1,7 @@
 [SECTION .data]
 	greets db 'Enter a string: ', 0x0
 	len equ $-greets
-	invalid_length db 'Size greater then 40 bytes or equal to 0', 0xa, 0x0
+	invalid_length db 'Size equal to 0', 0xa, 0x0
 	len2 equ $-invalid_length
 	final db 'Final string: ', 0x0
 	len3 equ $-final
